@@ -1,6 +1,6 @@
-﻿using B4mServer.Models;
+﻿using RealTimeServerServer.Models;
 
-namespace B4mServer.Websockets;
+namespace RealTimeServerServer.Websockets;
 
 public record WebSocketCommand
 {

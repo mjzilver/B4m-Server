@@ -1,4 +1,4 @@
-namespace B4mServer.Websockets.Interfaces;
+namespace RealTimeServerServer.Websockets.Interfaces;
 
 public interface ICommandProcessor
 {

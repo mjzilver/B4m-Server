@@ -1,6 +1,6 @@
-using B4mServer.Models;
+using RealTimeServerServer.Models;
 
-namespace B4mServer.Websockets.Interfaces;
+namespace RealTimeServerServer.Websockets.Interfaces;
 
 public interface IUserCommandProcessor
 {

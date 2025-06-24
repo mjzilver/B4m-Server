@@ -1,6 +1,6 @@
 using System.Net.WebSockets;
 
-namespace B4mServer.Websockets.Interfaces;
+namespace RealTimeServerServer.Websockets.Interfaces;
 
 public interface IWebSocketHandler
 {

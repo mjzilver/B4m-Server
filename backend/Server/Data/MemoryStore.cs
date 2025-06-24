@@ -1,8 +1,8 @@
-﻿using B4mServer.Models;
+﻿using RealTimeServerServer.Models;
 using System.Collections.Concurrent;
 using System.Net.WebSockets;
 
-namespace B4mServer.Data;
+namespace RealTimeServerServer.Data;
 
 public class MemoryStore : IMemoryStore
 {

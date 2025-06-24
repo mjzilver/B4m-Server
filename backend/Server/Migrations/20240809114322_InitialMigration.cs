@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace B4mServer.Migrations
+namespace RealTimeServerServer.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

@@ -1,11 +1,11 @@
 using System.Net;
 using System.Net.WebSockets;
 using System.Text.Json;
-using B4mServer.Data;
-using B4mServer.Websockets;
-using B4mServer.Websockets.Interfaces;
+using RealTimeServerServer.Data;
+using RealTimeServerServer.Websockets;
+using RealTimeServerServer.Websockets.Interfaces;
 
-namespace B4mServer.Middleware;
+namespace RealTimeServerServer.Middleware;
 public class CustomWebSocketMiddleware(
     RequestDelegate next,
     IWebSocketCommandProcessor commandProcessor,

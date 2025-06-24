@@ -1,6 +1,6 @@
-﻿using B4mServer.Websockets;
+﻿using RealTimeServerServer.Websockets;
 
-namespace B4mServer.Models;
+namespace RealTimeServerServer.Models;
 
 public partial class Message
 {

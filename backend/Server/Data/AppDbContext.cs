@@ -1,7 +1,7 @@
-﻿using B4mServer.Models;
+﻿using RealTimeServerServer.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace B4mServer.Data;
+namespace RealTimeServerServer.Data;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {

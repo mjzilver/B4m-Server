@@ -1,4 +1,4 @@
-﻿namespace B4mServer.Validators;
+﻿namespace RealTimeServerServer.Validators;
 
 public class SharedValidator
 {

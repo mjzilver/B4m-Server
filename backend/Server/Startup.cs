@@ -1,13 +1,13 @@
-﻿using B4mServer.Data;
-using B4mServer.Websockets;
-using B4mServer.Websockets.Interfaces;
+﻿using RealTimeServerServer.Data;
+using RealTimeServerServer.Websockets;
+using RealTimeServerServer.Websockets.Interfaces;
 using Microsoft.AspNetCore.WebSockets;
 using Microsoft.EntityFrameworkCore;
-using B4mServer.Middleware;
+using RealTimeServerServer.Middleware;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace B4mServer;
+namespace RealTimeServerServer;
 
 public class Startup
 {

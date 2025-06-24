@@ -1,7 +1,7 @@
-using B4mServer.Models;
+using RealTimeServerServer.Models;
 using System.Net.WebSockets;
 
-namespace B4mServer.Data;
+namespace RealTimeServerServer.Data;
 
 public interface IMemoryStore
 {

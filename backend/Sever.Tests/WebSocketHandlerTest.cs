@@ -6,13 +6,13 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using B4mServer.Data;
-using B4mServer.Websockets;
-using B4mServer.Websockets.Interfaces;
+using RealTimeServerServer.Data;
+using RealTimeServerServer.Websockets;
+using RealTimeServerServer.Websockets.Interfaces;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace B4mServer.Tests.Websockets
+namespace RealTimeServerServer.Tests.Websockets
 {
     [TestClass]
     public class WebSocketHandlerTests

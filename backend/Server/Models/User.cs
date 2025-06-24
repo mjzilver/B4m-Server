@@ -1,7 +1,7 @@
-﻿using B4mServer.Websockets;
+﻿using RealTimeServerServer.Websockets;
 using System.Text.Json.Serialization;
 
-namespace B4mServer.Models;
+namespace RealTimeServerServer.Models;
 public partial class User
 {
 	public int Id { get; set; }

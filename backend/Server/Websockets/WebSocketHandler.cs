@@ -1,10 +1,10 @@
 ﻿using System.Net.WebSockets;
 using System.Text;
 using System.Text.Json;
-using B4mServer.Data;
-using B4mServer.Websockets.Interfaces;
+using RealTimeServerServer.Data;
+using RealTimeServerServer.Websockets.Interfaces;
 
-namespace B4mServer.Websockets;
+namespace RealTimeServerServer.Websockets;
 
 public class WebSocketHandler(
 	WebSocket webSocket,

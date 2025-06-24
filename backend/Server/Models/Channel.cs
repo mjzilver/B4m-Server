@@ -1,8 +1,8 @@
-﻿using B4mServer.Websockets;
+﻿using RealTimeServerServer.Websockets;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace B4mServer.Models;
+namespace RealTimeServerServer.Models;
 
 public partial class Channel
 {

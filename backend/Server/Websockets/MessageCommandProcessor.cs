@@ -1,11 +1,11 @@
 ﻿using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
-using B4mServer.Models;
-using B4mServer.Data;
-using B4mServer.Validators;
-using B4mServer.Websockets.Interfaces;
+using RealTimeServerServer.Models;
+using RealTimeServerServer.Data;
+using RealTimeServerServer.Validators;
+using RealTimeServerServer.Websockets.Interfaces;
 
-namespace B4mServer.Websockets;
+namespace RealTimeServerServer.Websockets;
 
 public class MessageCommandProcessor(AppDbContext dbContext, IMemoryStore memoryStore,
     IWebSocketSender webSocketSender, JsonSerializerOptions options) : IMessageCommandProcessor
